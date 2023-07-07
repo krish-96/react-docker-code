@@ -5,9 +5,9 @@ import { Link } from "react-router-dom";
 const NavBar = () => {
   return (
     <React.Fragment>
-      <nav class="navbar navbar-expand-lg bg-light">
-        <div class="container-fluid">
-          <Link class="navbar-brand" to="/">
+      <nav className="navbar navbar-expand-lg bg-light">
+        <div className="container-fluid">
+          <Link className="navbar-brand" to="/">
             <img src={logo} alt="" style={{ height: "50px", width: "50px" }} />
             React-Docker
           </Link>
@@ -48,10 +48,14 @@ const NavBar = () => {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link disabled">AboutUs</a>
+                <a className="nav-link disabled" href="/">
+                  AboutUs
+                </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link disabled">ContactUs</a>
+                <a className="nav-link disabled" href="/">
+                  ContactUs
+                </a>
               </li>
             </ul>
             <form className="d-flex" role="search">

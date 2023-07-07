@@ -1,6 +1,8 @@
 import React from "react";
+import NotFoundImg from "./not-found.png";
+// import NotFoundImg from "./notfound.jpg";
 
-const Login = () => {
+const NotFound = () => {
   return (
     <div
       className="container"
@@ -13,7 +15,7 @@ const Login = () => {
       }}
     >
       <div>
-        <h1 className="text-center mt-5 bg-dark text-light">Login</h1>
+        <h1 className="text-center mt-5 bg-dark text-light">NotFound</h1>
       </div>
       <div
         style={{
@@ -25,8 +27,8 @@ const Login = () => {
         }}
       >
         <img
-          src="https://st.depositphotos.com/18722762/51522/v/450/depositphotos_515228796-stock-illustration-online-registration-sign-login-account.jpg"
-          alt="User login"
+          src={NotFoundImg}
+          alt="Not found"
           style={{ backgroundColor: "white", height: "350px", width: "450px" }}
         />
       </div>
@@ -34,4 +36,4 @@ const Login = () => {
   );
 };
 
-export default Login;
+export default NotFound;

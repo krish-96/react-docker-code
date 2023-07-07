@@ -13,7 +13,7 @@ const Home = () => {
       }}
     >
       <div>
-        <h1 className="text-center mt-5 bg-dark text-light">Home Page</h1>
+        <h1 className="text-center mt-5 bg-dark text-light">Home</h1>
       </div>
       <div
         style={{
@@ -26,6 +26,7 @@ const Home = () => {
       >
         <img
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdgDH8743B9L7RLAjjRlUIREJzfSTpBuuEhVb_svQi5GPizC6tATxlpqcmWeEk5KKW6zE&usqp=CAU"
+          alt="React"
           style={{ backgroundColor: "white" }}
         />
       </div>
